@@ -47,12 +47,12 @@ struct Rotor{TF, TI, TB,
     Rhub::TF
     Rtip::TF
     B::TI
-    #precone::TF
+    precone::TF
     turbine::TB
     mach::T1
     re::T2
-    #rotation::T3
-    #tip::T4
+    rotation::T3
+    tip::T4
 end
 
 # convenience constructor with keyword parameters
