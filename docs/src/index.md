@@ -1,8 +1,4 @@
-# CCBlade.jl
-
-[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://flow.byu.edu/CCBlade.jl/stable)
-![](https://github.com/byuflowlab/CCBlade.jl/workflows/Run%20tests/badge.svg)
-
+# CCBlade Documentation
 
 **Summary**: A blade element momentum method for propellers and turbines. 
 
@@ -22,16 +18,15 @@
 **Installation**:
 
 ```julia
-] add CCBlade
+pkg> add CCBlade
 ```
 
 **Documentation**:
 
-The [documentation](https://flow.byu.edu/CCBlade.jl/stable/) contains
-- A quick start tutorial to learn basic usage,
-- Guided examples to address specific or more advanced tasks,
-- A reference describing the API,
-- Theory in full detail.
+- Start with the [quick start tutorial](tutorial.md) to learn basic usage.
+- More advanced or specific queries are addressed in the [guided examples](howto.md).
+- Full details of the API are listed in [reference](reference.md).
+- Full details of the theory are linked from the [theory](theory.md) page.
 
 **Run Unit Tests**:
 
@@ -44,6 +39,4 @@ pkg> test
 
 Ning, A., “Using Blade Element Momentum Methods with Gradient-Based Design Optimization,” Apr. 2020, (in review).
 
-**Python / OpenMDAO users**
 
-In the `openmdao` folder there is a Python wrapper to this package to enable usage from [OpenMDAO](https://openmdao.org).  This wrapper was developed/maintained by Daniel Ingraham and Justin Gray at NASA Glenn.
